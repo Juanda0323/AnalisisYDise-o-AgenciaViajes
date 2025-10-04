@@ -1,3 +1,63 @@
-Diagrama De Flujo
+Introducción  
 
+ El mercado turístico actual se caracteriza por la digitalización de los procesos de compra y reserva de planes vacacionales. Los clientes buscan experiencias rápidas, personalizadas y confiables a través de plataformas en línea. Sin embargo, muchas agencias de viajes aún no cuentan con páginas web funcionales que ofrezcan información clara, métodos de pago seguros y la posibilidad de comparar paquetes turísticos. 
+ La necesidad surge de crear una solución digital moderna que permita a los clientes explorar, seleccionar y reservar planes turísticos desde cualquier dispositivo, aumentando la competitividad de la agencia en el entorno digital. 
+
+ 
+
+Justificación 
+
+En los últimos años, el turismo ha experimentado una transformación significativa gracias al uso de plataformas digitales que permiten reservar vuelos, alojamientos y actividades desde cualquier lugar del mundo. Sin embargo, muchas de estas herramientas han priorizado la automatización y la eficiencia sobre la experiencia personalizada del usuario, dejando de lado aspectos esenciales como el acompañamiento humano, la inclusión de territorios periféricos y la promoción de economías locales. Según Buhalis y Amaranggana (2015), el turismo inteligente no se limita al uso de tecnologías, sino que debe centrarse en crear valor para los usuarios y las comunidades involucradas. 
+
+En el ámbito internacional, se han desarrollado plataformas como Booking.com y Airbnb que han revolucionado la forma de viajar. No obstante, estas se enfocan principalmente en mercados consolidados, y tienden a excluir a pequeñas iniciativas turísticas que no cuentan con los recursos técnicos para adaptarse a estas plataformas. Además, estudios como el de Gretzel et al. (2015) han señalado que, aunque la digitalización ha mejorado el acceso a la información, aún hay una brecha significativa en la personalización de los servicios turísticos, especialmente en usuarios que buscan experiencias auténticas y menos masificadas. 
+
+Por ende, la necesidad del proyecto surge, entonces, de una realidad concreta: turistas con perfiles diversos jóvenes, adultos mayores, viajeros primerizos, personas con necesidades especiales siguen enfrentando barreras para planear sus viajes de manera confiable, personalizada y cercana. A la vez, cientos de emprendimientos turísticos locales luchan por ser visibles y competir en un entorno dominado por grandes plataformas. Esta desconexión evidencia una oportunidad clara: diseñar una herramienta que actúe como puente entre quienes buscan experiencias auténticas y quienes pueden ofrecerlas, de manera accesible y asistida. El propósito final de este proyecto es responder a esa necesidad mediante el desarrollo de una plataforma web que permita la recomendación de paquetes turísticos generando un impacto positivo que potencie la confianza con la compañía y termine con una historia que valga la pena contar. 
+
+
+Objetivo general  
+
+Analizar, diseñar el prototipo de una página web moderna, interactiva y funcional para la agencia de viajes, orientada a optimizar la promoción y venta de planes turísticos. El desarrollo se llevará a cabo aplicando la metodología Design Thinking para identificar y responder a las necesidades reales de los clientes a través de un enfoque centrado en la experiencia de usuario, y gestionando el proceso de análisis y diseño con la metodología Kanban, con el fin de asegurar una organización ágil, flexible y eficiente de las tareas, garantizando así una solución digital viable, innovadora y alineada con los objetivos del negocio. 
+
+  
+
+Objetivos específicos  
+
+Definir claramente los problemas y oportunidades detectados en la investigación, estableciendo los criterios que guiarán el diseño de la solución digital. 
+
+Organizar y priorizar las tareas de análisis, diseño y prototipado mediante la metodología Kanban, asegurando una gestión visual y eficiente del flujo de trabajo. 
+
+Identificar las necesidades y expectativas de los usuarios mediante entrevistas, encuestas y análisis de mercado.  
+
+Diseñar la arquitectura de información y la interfaz gráfica centrada en la experiencia del usuario.  
+
+Implementar funcionalidades clave como catálogo de planes, buscador de destinos, pasarela de pagos y sección de contacto.  
+
+Prototipar la página web para pruebas con usuarios y realizar ajustes antes de la entrega final. 
+
+ 
+
+ 
+
+ 
+
+Planteamiento del Problema 
+
+Hoy en día, planear un viaje parece más fácil que nunca. Hay cientos de plataformas, ofertas por todos lados y botones que prometen hacerlo todo por ti. Pero cuando alguien quiere algo distinto no solo reservar un hotel, sino vivir una experiencia auténtica, conocer un lugar con alma, se da cuenta de que no es tan simple. Las grandes plataformas apuntan a lo masivo. Rara vez muestran ese hospedaje rural escondido en las montañas, o la experiencia cultural que una familia lleva años ofreciendo con cariño en su comunidad.  
+
+Del otro lado, esos pequeños emprendedores luchan por ser visibles. Muchos no tienen presencia digital o no saben cómo competir con los gigantes. Y mientras tanto, los viajeros siguen buscando solos, desorientados, a veces frustrados. Falta un puente. Algo o alguien que conecte de verdad, que escuche lo que la persona quiere, que recomiende sin frialdad, que acompañe.  
+
+Y es ahí donde nace la pregunta que guía este proyecto, ¿Cómo desarrollar una página web funcional, intuitiva y atractiva que permita a los clientes explorar, personalizar y reservar planes turísticos de forma segura y eficiente, mejorando la experiencia del usuario y la competitividad de la agencia?  Teniendo en cuenta que la agencia de viajes presenta las siguientes dificultades: 
+
+Ausencia de una plataforma digital que centralice la oferta de planes turísticos. 
+
+Pérdida de clientes frente a competidores que ya disponen de soluciones online. 
+
+Limitaciones en la comunicación y personalización de los servicios para distintos perfiles de viajeros. 
+
+Dificultad para mostrar al cliente el valor diferencial de los paquetes turísticos (actividades incluidas, precios, reseñas). 
+
+
+
+
+Diagrama De Flujo
 https://lucid.app/lucidspark/f1b8ebeb-15c7-4f1b-9b19-1da66bbdf5b5/edit?viewport_loc=-1129%2C-695%2C3807%2C1870%2C3B0CRSot8otI&invitationId=inv_3f525844-b5f0-4d0c-af88-3c6b72f88978
