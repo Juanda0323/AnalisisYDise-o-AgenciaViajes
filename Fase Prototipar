@@ -3,7 +3,7 @@ Conclusiones
  
 -La implementación de prototipos de baja fidelidad permitió validar la estructura funcional y la lógica de navegación del sitio web de manera ágil y económica. Posteriormente, el diseño de alta fidelidad facilitó la visualización estética y la interacción realista, mejorando la comprensión del producto final por parte del cliente. El uso de herramientas como Balsamiq para wireframes y Figma para prototipos visuales demostró ser eficaz en las distintas etapas del proceso de diseño. 
 
--El mapa de navegación estructuró de forma clara el recorrido del usuario a través de las pantallas principales: Inicio, Destinos, Reservas y Confirmación. Esta representación gráfica permitió identificar puntos críticos de interacción y asegurar la coherencia entre secciones, contribuyendo a una experiencia de usuario fluida y lógica. 
+-El mapa de navegación estructuró de forma clara el recorrido del usuario a través de las pantallas principales: Inicio,paquetes, Destinos y inicio de sesión. Esta representación gráfica permitió identificar puntos críticos de interacción y asegurar la coherencia entre secciones, contribuyendo a una experiencia de usuario fluida y lógica. 
 
 -Se definió un flujo de usuario centrado en la tarea principal: explorar destinos y realizar una reserva. Este flujo incluyó pasos secuenciales desde la pantalla de inicio hasta la confirmación final, permitiendo validar la eficiencia del recorrido y detectar posibles fricciones en la navegación. 
 
