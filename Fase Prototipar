@@ -1,49 +1,13 @@
 Conclusiones 
 
  
-
-El desarrollo del prototipo funcional para la plataforma web de la agencia de viajes BRVO TOURS permitió identificar y estructurar las necesidades reales de los usuarios, así como las oportunidades de mejora en la gestión digital de servicios turísticos. A través de la aplicación de la metodología Design Thinking y la gestión ágil con Kanban, se logró: 
-
-Definir un alcance claro y realista, centrado en el prototipado de interfaces y la experiencia de usuario, sin avanzar a etapas de desarrollo o implementación. 
- 
-
-Identificar las frustraciones y expectativas de los usuarios mediante herramientas como el mapa de empatía, lo que permitió orientar el diseño hacia una plataforma intuitiva, segura y personalizable. 
- 
-
-Establecer los requisitos funcionales y no funcionales necesarios para garantizar una navegación fluida, accesible y adaptada a distintos perfiles de viajeros. 
- 
-
-Plantear una estructura de sprints que facilitó la organización del trabajo y la entrega iterativa de componentes clave como el catálogo de viajes, la gestión de usuarios y el proceso de reserva simulada. 
- 
-
-Las historias de usuario ayudan a entender lo que necesita cada persona que usa un sistema. Escribimos esas historias desde el punto de vista del usuario. Esto ayuda a que el equipo cree funciones útiles y fáciles de entender. Las historias muestran los problemas que se quieren resolver.  
- 
-
-Las historias también ayudan a seguir paso a paso. La gente puede verificar si lo que se hace funciona. Si no funciona bien, pueden cambiarlo. Las historias son cortas y fáciles de probar. Esto hace que el trabajo sea más rápido y sencillo. También ayuda a que todos trabajen juntos y se centren en lo que importa.  
- 
-
-Los requisitos funcionales permiten crear un sistema que responde a lo que el usuario necesita hacer: buscar, reservar, pagar, gestionar, comunicar. Al definirlos claramente y desde la perspectiva del usuario, el equipo trabaja más fácilmente, la experiencia mejora y cada función tiene un propósito y verificable.  
- 
-
-La creación de una página web permitirá optimizar los procesos internos de la agencia y mejorar la experiencia del cliente, al ofrecer un sistema centralizado de reservas, con información clara, opciones comparables y métodos de pago seguros. Esto reducirá los errores administrativos y aumentará la confianza del usuario en los servicios ofrecidos.  
-
- 
-
-La digitalización de la agencia fortalecerá su posicionamiento en el mercado turístico, incrementando su visibilidad en entornos digitales y facilitando la fidelización de los clientes mediante una plataforma moderna, accesible y personalizada, alineada con las nuevas tendencias del sector y las necesidades de los viajeros actuales. 
-
- 
-
 La implementación de prototipos de baja fidelidad permitió validar la estructura funcional y la lógica de navegación del sitio web de manera ágil y económica. Posteriormente, el diseño de alta fidelidad facilitó la visualización estética y la interacción realista, mejorando la comprensión del producto final por parte del cliente. El uso de herramientas como Balsamiq para wireframes y Figma para prototipos visuales demostró ser eficaz en las distintas etapas del proceso de diseño. 
-
- 
 
 El mapa de navegación estructuró de forma clara el recorrido del usuario a través de las pantallas principales: Inicio, Destinos, Reservas y Confirmación. Esta representación gráfica permitió identificar puntos críticos de interacción y asegurar la coherencia entre secciones, contribuyendo a una experiencia de usuario fluida y lógica. 
 
 Se definió un flujo de usuario centrado en la tarea principal: explorar destinos y realizar una reserva. Este flujo incluyó pasos secuenciales desde la pantalla de inicio hasta la confirmación final, permitiendo validar la eficiencia del recorrido y detectar posibles fricciones en la navegación. 
 
 El prototipo integró principios fundamentales de diseño de interfaz (UI) y experiencia de usuario (UX), tales como jerarquía visual, consistencia tipográfica, botones de acción claros y retroalimentación visual. Estos elementos fueron aplicados para mejorar la usabilidad, accesibilidad y satisfacción del usuario final. 
-
- 
 
 Las pruebas realizadas con tres usuarios y cinco tareas clave confirmaron que el prototipo es claro y funcional. Todos lograron completar las acciones principales, aunque se identificaron mejoras necesarias en la visibilidad de filtros y botones. Estos hallazgos aportan insumos valiosos para optimizar la experiencia antes de avanzar a versiones de alta fidelidad. 
 
