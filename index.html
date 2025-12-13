@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BRVO TOURS - Agencia de Viajes</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+
+    <body>
+        <!-- Navegación -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <i class="fas fa-globe"></i>
+                    <span>BRVO TOURS</span>
+                </div>
+                <div class="navbar-menu" id="navbarMenu">
+                    <a href="#home" class="nav-link">Inicio</a>
+                    <a href="#destinos" class="nav-link">Destinos</a>
+                    <a href="#paquetes" class="nav-link">Paquetes</a>
+                    <a href="#testimonios" class="nav-link">Testimonios</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <button class="btn-reservar">Reservar Ahora</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle">    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Descubre el Mundo con BRVO TOURS</h1>
+                <p class="hero-subtitle">Vive experiencias inolvidables en los destinos más hermosos</p>
+                <button class="btn btn-primary btn-lg">Explorar Destinos</button>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Características -->
+        <section id="caracteristicas" class="caracteristicas">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegirnos?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-plane"></i>
+                        <h3>Destinos Exclusivos</h3>
+                        <p>Acceso a los lugares más hermosos y exóticos del mundo</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Atención Personalizada</h3>
+                        <p>Equipo dedicado para hacer tu viaje perfecto</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Seguridad Garantizada</h3>
+                        <p>Protección completa en todos nuestros viajes</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tag"></i>
+                        <h3>Mejores Precios</h3>
+                        <p>Ofertas competitivas sin comprometer calidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destinos Populares -->
+        <section id="destinos" class="destinos">
+            <div class="container">
+                <h2 class="section-title">Destinos Populares</h2>
+                <div class="destinos-grid">
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Playas del Caribe</h3>
+                            <p>Arenas blancas y aguas cristalinas</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Montañas de los Andes</h3>
+                            <p>Aventura y naturaleza en las alturas</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1500382017468-f049863256ca?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Ciudades Europeas</h3>
+                            <p>Historia, cultura y arquitectura fascinante</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Selva Amazónica</h3>
+                            <p>Biodiversidad única en el planeta</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1549365776-bf57e99ad9ad?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Templos antiguos y playas paradisíacas</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <div class="destino-card">
+                        <div class="destino-image" style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=500&fit=crop')"></div>
+                        <div class="destino-info">
+                            <h3>Japón</h3>
+                            <p>Tradición y modernidad en perfecta armonía</p>
+                            <div class="destino-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9/5</span>
+                            </div>
+                            <button class="btn btn-secondary btn-sm">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paquetes Especiales -->
+        <section id="paquetes" class="paquetes">
+            <div class="container">
+                <h2 class="section-title">Paquetes Especiales</h2>
+                <div class="paquetes-grid">
+                    <div class="paquete-card">
+                        <div class="paquete-badge">Popular</div>
+                        <h3>Fin de Semana Romántico</h3>
+                        <p class="paquete-descripcion">Escapada perfecta para parejas</p>
+                        <ul class="paquete-incluye">
+                            <li><i class="fas fa-check"></i> Hotel 4 estrellas</li>
+                            <li><i class="fas fa-check"></i> Desayuno incluido</li>
+                            <li><i class="fas fa-check"></i> Tour guiado</li>
+                            <li><i class="fas fa-check"></i> Transporte</li>
+                        </ul>
+                        <div class="paquete-precio">
+                            <span class="precio">$999</span>
+                            <span class="duracion">3 días</span>
+                        </div>
+                        <button class="btn btn-primary btn-block">Reservar Ahora</button>
+                    </div>
+
+                    <div class="paquete-card destacado">
+                        <div class="paquete-badge premium">Premium</div>
+                        <h3>Aventura Extrema</h3>
+                        <p class="paquete-descripcion">Para los amantes de la adrenalina</p>
+                        <ul class="paquete-incluye">
+                            <li><i class="fas fa-check"></i> Alojamiento todo incluido</li>
+                            <li><i class="fas fa-check"></i> Actividades extremas</li>
+                            <li><i class="fas fa-check"></i> Guía profesional</li>
+                            <li><i class="fas fa-check"></i> Equipamiento completo</li>
+                        </ul>
+                        <div class="paquete-precio">
+                            <span class="precio">$1,799</span>
+                            <span class="duracion">7 días</span>
+                        </div>
+                        <button class="btn btn-primary btn-block">Reservar Ahora</button>
+                    </div>
+
+                    <div class="paquete-card">
+                        <div class="paquete-badge">Familia</div>
+                        <h3>Vacaciones en Familia</h3>
+                        <p class="paquete-descripcion">Diversión para todos los edades</p>
+                        <ul class="paquete-incluye">
+                            <li><i class="fas fa-check"></i> Resort familiar</li>
+                            <li><i class="fas fa-check"></i> Actividades para niños</li>
+                            <li><i class="fas fa-check"></i> Piscina y playa</li>
+                            <li><i class="fas fa-check"></i> Seguro viaje</li>
+                        </ul>
+                        <div class="paquete-precio">
+                            <span class="precio">$1,299</span>
+                            <span class="duracion">5 días</span>
+                        </div>
+                        <button class="btn btn-primary btn-block">Reservar Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="testimonios" class="testimonios">
+            <div class="container">
+                <h2 class="section-title">Lo que nuestros clientes dicen</h2>
+                <div class="testimonios-grid">
+                    <div class="testimonio-card">
+                        <div class="testimonio-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonio-texto">"El viaje fue increíble, todo perfectamente organizado. El equipo de BRVO TOURS fue muy profesional y atento."</p>
+                        <div class="testimonio-autor">
+                            <img src="https://i.pravatar.cc/150?img=1" alt="Cliente">
+                            <div>
+                                <h4>María González</h4>
+                                <span>Viajero Verificado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <div class="testimonio-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonio-texto">"Excelente experiencia. Los precios son justos y la calidad del servicio superó mis expectativas completamente."</p>
+                        <div class="testimonio-autor">
+                            <img src="https://i.pravatar.cc/150?img=2" alt="Cliente">
+                            <div>
+                                <h4>Carlos Rodríguez</h4>
+                                <span>Viajero Verificado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <div class="testimonio-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonio-texto">"BRVO TOURS hizo que nuestro viaje familiar fuera memorable. Todos quedamos enamorados del destino y del servicio."</p>
+                        <div class="testimonio-autor">
+                            <img src="https://i.pravatar.cc/150?img=3" alt="Cliente">
+                            <div>
+                                <h4>Ana Martínez</h4>
+                                <span>Viajero Verificado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Suscripción Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <h2>Recibe Ofertas Especiales</h2>
+                <p>Suscríbete a nuestro newsletter y obtén descuentos exclusivos</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit" class="btn btn-primary">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contacto-grid">
+                    <div class="contacto-info">
+                        <div class="contacto-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@brvotours.com</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Calle Principal 123, Ciudad</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horario</h4>
+                                <p>Lun - Vie: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contacto-form" id="contactForm">
+                        <input type="text" placeholder="Tu nombre" required>
+                        <input type="email" placeholder="Tu email" required>
+                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>BRVO TOURS</h4>
+                        <p>Tu compañía de confianza para viajes inolvidables</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Enlaces Rápidos</h4>
+                        <a href="#destinos">Destinos</a>
+                        <a href="#paquetes">Paquetes</a>
+                        <a href="#testimonios">Testimonios</a>
+                        <a href="#contacto">Contacto</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Política</h4>
+                        <a href="#">Privacidad</a>
+                        <a href="#">Términos de Servicio</a>
+                        <a href="#">Cancelaciones</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Seguros</h4>
+                        <p>Certificados y asegurados internacionalmente</p>
+                        <div class="certificados">
+                            <i class="fas fa-certificate"></i>
+                            <i class="fas fa-certificate"></i>
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 BRVO TOURS. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+    </html>
